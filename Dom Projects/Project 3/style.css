@@ -1,0 +1,60 @@
+
+body{
+    background-color: rgb(221, 140, 221);
+    padding: 40px;
+    line-height: 1.6rem;
+}
+
+.acordian{
+    background-color: white;
+    padding: 10px 15px;
+    margin-bottom: 16px;
+    border-radius: 4px;   
+}
+
+.question{
+    display: flex;
+    justify-content: space-between;
+}
+
+.question h4{
+    width: 100%;
+}
+
+span{
+ position: relative;
+ left: 78%;
+ cursor: pointer;
+ font-size: 1.2rem;
+ font-weight: 700;
+}
+
+span:hover{
+    color: darkblue;
+}
+
+h2{
+    text-align: center;
+}
+
+.answer{
+    color: blue;
+    max-height: 0;
+    overflow: hidden;
+}
+
+@media(max-width: 620px){
+    
+span{
+ position: relative;
+ left: 8%;
+ cursor: pointer;
+ font-size: 1.2rem;
+ font-weight: 700;
+}
+
+.main-container{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+}
